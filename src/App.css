@@ -121,7 +121,7 @@ h1{
 }
 
 .delete-item:hover{
-    background-color: pink;
+    background-color: red;
     color: white;
     font-size: 15px;
 }
