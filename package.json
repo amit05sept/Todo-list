@@ -1,0 +1,33 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Todo List",
+  "main": "App.js",
+  "scripts": {
+    "test": "Jest",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amit05sept/Todo-list.git"
+  },
+  "keywords": [
+    "Todo",
+    "List"
+  ],
+  "author": "Amit Kumar Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit05sept/Todo-list/issues"
+  },
+  "homepage": "https://github.com/amit05sept/Todo-list#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
