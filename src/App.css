@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .background-div{
     background-color: rgb(38, 130, 242) !important;
+    /* background-color: black !important; */
     background-image: linear-gradient(to right ,rgb(38, 130, 242) , rgb(1, 59, 129) );
     height: 100vh;
     display: flex ;
@@ -119,7 +121,7 @@ h1{
 }
 
 .delete-item:hover{
-    background-color: red;
+    background-color: pink;
     color: white;
     font-size: 15px;
 }
