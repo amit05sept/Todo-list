@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import List from "./List";
 import emptyList from "../img/emptyList.png";
+import Button from "./JsonButton";
 
 const ToDo = function () {
   const [inputList, setinputList] = useState("");
@@ -69,6 +70,7 @@ const ToDo = function () {
               })
             )}
           </div>
+          <Button list={itemList}  setList = {setitemList}/>
         </div>
       </div>
     </>
