@@ -1,8 +1,8 @@
 
 
 const downLoadJason = function (list) {
+    if(list.length===0)return;
   const json = JSON.stringify(list);
-  console.log(typeof json);
   const blob = new Blob([json], { type: "application/json" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
